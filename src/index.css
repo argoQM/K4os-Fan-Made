@@ -1,25 +1,58 @@
 @import "tailwindcss";
 
 @theme {
-  /* --color-enfasis: #f2875f; */
-  --color-enfasis: #fe6800;
-  --color-texto: #0e0036;
-  --color-fondoPrincipal: #f4f4f4;
-  --color-naranjaO: #fe3a00;
-  --color-naranjaM: #fe6800;
-  --color-naranjaC: #f28705;
+  --color-fondo: var(--color-k4os);
+  --color-k4os: #000;
+  --color-tau: #e42f24;
+  --color-mechi: #cf78d6;
+  --color-ine: #0ab1c5;
+  --color-lily: #0074ba;
+  --color-fondoTema: var(--color-k4os);
+  --color-caos: #a19e8b;
+  --color-extra: #845d1f;
+  --color-menteEnBlanco: #989898;
+  --color-Rage: #d90008;
+  --color-uffBaby: #ef9183;
 }
 @layer components {
-  .activo {
-    --color-enfasis: initial;
-    --color-texto: initial;
-    --color-fondoPrincipal: initial;
-    /* --color-enfasis: #ff4500; */
-    --color-enfasis: #fe6800;
-    --color-texto: #f4f4f4;
-    --color-fondoPrincipal: #0e0036;
-    --color-naranjaC: #f28705;
-    --color-naranjaM: #fe6800;
-    --color-naranjaO: #fe3a00;
+  .k4os {
+    --color-fondo: initial;
+    --color-fondo: var(--color-k4os);
+  }
+  .tau {
+    --color-fondo: initial;
+    --color-fondo: var(--color-tau);
+  }
+  .mechi {
+    --color-fondo: initial;
+    --color-fondo: var(--color-mechi);
+  }
+  .ine {
+    --color-fondo: initial;
+    --color-fondo: var(--color-ine);
+  }
+  .lily {
+    --color-fondo: initial;
+    --color-fondo: var(--color-lily);
+  }
+  .caos {
+    --color-fondoTema: initial;
+    --color-fondoTema: var(--color-caos);
+  }
+  .extra {
+    --color-fondoTema: initial;
+    --color-fondoTema: var(--color-extra);
+  }
+  .menteEnBlanco {
+    --color-fondoTema: initial;
+    --color-fondoTema: var(--color-menteEnBlanco);
+  }
+  .rage {
+    --color-fondoTema: initial;
+    --color-fondoTema: var(--color-rage);
+  }
+  .uffBaby {
+    --color-fondoTema: initial;
+    --color-fondoTema: var(--color-uffBaby);
   }
 }
