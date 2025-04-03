@@ -2,7 +2,7 @@
 
 @theme {
   --color-fondo: var(--color-k4os);
-  --color-k4os: #000;
+  --color-k4os: #0a0408;
   --color-tau: #e42f24;
   --color-mechi: #cf78d6;
   --color-ine: #0ab1c5;
@@ -11,7 +11,7 @@
   --color-caos: #a19e8b;
   --color-extra: #845d1f;
   --color-menteEnBlanco: #989898;
-  --color-Rage: #d90008;
+  --color-rage: #d90008;
   --color-uffBaby: #ef9183;
 }
 @layer components {

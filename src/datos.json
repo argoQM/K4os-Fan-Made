@@ -1,55 +1,36 @@
 {
-  "k4os": {},
-  "album1": {
-    "caos": {
-      "video": {
-        "url": "",
-        "title": ""
+  "k4os": {
+    "img": {
+      "k4osLogo": {
+        "src": "public/img/logo/logo.jpg",
+        "title": "k4os logo",
+        "alt": "k4os logo"
       },
-      "tau": {},
-      "mechi": {},
-      "ine": {},
-      "lily": {}
-    },
-    "extra": {
-      "video": {
-        "url": "",
-        "title": ""
+      "caos": {
+        "src": "public/img/caos/k4os/k4osCaos3.jpg",
+        "title": "Imagen del grupo. Tema 'Caos'.",
+        "alt": "Imagen del grupo. Tema 'Caos'."
       },
-      "tau": {},
-      "mechi": {},
-      "ine": {},
-      "lily": {}
-    },
-    "menteEnBlanco": {
-      "video": {
-        "url": "",
-        "title": ""
+      "extra": {
+        "src": "public/img/extra/k4os/k4osExtra3.jpg",
+        "title": "Imagen del grupo. Tema 'Extra'.",
+        "alt": "Imagen del grupo. Tema 'Extra'."
       },
-      "tau": {},
-      "mechi": {},
-      "ine": {},
-      "lily": {}
-    },
-    "rage": {
-      "video": {
-        "url": "",
-        "title": ""
+      "menteEnBlanco": {
+        "src": "public/img/menteEnBlanco/k4os/k4osMEB1.jpg",
+        "title": "Imagen del grupo. Tema 'Mente en Blanco'.",
+        "alt": "Imagen del grupo. Tema 'Mente en Blanco'."
       },
-      "tau": {},
-      "mechi": {},
-      "ine": {},
-      "lily": {}
-    },
-    "uffBaby": {
-      "video": {
-        "url": "",
-        "title": ""
+      "rage": {
+        "src": "public/img/rage/k4os/k4osRage1.jpg",
+        "title": "Imagen del grupo. Tema 'Rage'.",
+        "alt": "Imagen del grupo. Tema 'Rage'."
       },
-      "tau": {},
-      "mechi": {},
-      "ine": {},
-      "lily": {}
+      "uffBaby": {
+        "src": "public/img/uffBaby/k4os/k4osUB2.jpg",
+        "title": "Imagen del grupo. Tema 'Uff Baby'.",
+        "alt": "Imagen del grupo. Tema 'Uff Baby'."
+      }
     }
   }
 }
